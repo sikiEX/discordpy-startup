@@ -19,6 +19,11 @@ async def atk(ctx):
 @bot.command()
 async def login(ctx):
     await ctx.send('::login')
+
+    
+    @bot.command()
+async def re(ctx):
+    await ctx.send('::re')
     
 
 bot.run(token)
