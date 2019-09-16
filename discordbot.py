@@ -12,12 +12,13 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def l(ctx):
+async def atk(ctx):
     await ctx.send('::atk')
     
     
 @bot.command()
-async def l(ctx):
+async def login(ctx):
     await ctx.send('::login')
+    
 
 bot.run(token)
